@@ -14,7 +14,15 @@ struct OpeningStream: View {
     }
 
     var reason: String {
-        player.videoBeingOpened.isNil ? "Opening\(streamQuality)stream..." : "Loading streams..."
+        guard player.videoBeingOpened != nil else {
+            return NSLocalizedString("Loading streams...", tableName: "Localizable", bundle: .main, comment: "Loading stream OSD")
+        }
+
+        if player.musicMode {
+            return NSLocalizedString("Opening audio stream...", tableName: "Localizable", bundle: .main, comment: "")
+        }
+
+        return String(format: NSLocalizedString("Opening %@ stream...", tableName: "Localizable", bundle: .main, comment: "Loading stream OSD"), streamQuality)
     }
 
     var state: String? {

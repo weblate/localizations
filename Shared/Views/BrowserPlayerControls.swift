@@ -69,6 +69,9 @@ struct PlayerControlsView_Previews: PreviewProvider {
                 VStack {
                     Spacer()
                     TextField("A", text: .constant("abc"))
+                    Text("Test string")
+                    Text("Test string 2")
+                    Text("Test string 3")
                     Spacer()
                 }
             }

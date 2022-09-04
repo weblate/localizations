@@ -42,7 +42,8 @@ struct Instance: Defaults.Serializable, Hashable, Identifiable {
     }
 
     var anonymousAccount: Account {
-        Account(instanceID: id, name: "Anonymous", url: apiURL, anonymous: true)
+        let anonymousString = NSLocalizedString("Anonymous", tableName: "Localizable", bundle: .main, comment: "")
+        return Account(instanceID: id, name: anonymousString, url: apiURL, anonymous: true)
     }
 
     var urlComponents: URLComponents {

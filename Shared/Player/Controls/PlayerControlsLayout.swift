@@ -45,11 +45,17 @@ enum PlayerControlsLayout: String, CaseIterable, Defaults.Serializable {
     var description: String {
         switch self {
         case .tvRegular:
-            return "TV"
+            return NSLocalizedString("TV", tableName: "Localizable", bundle: .main, comment: "Player controls layout size for TV")
         case .veryLarge:
-            return "Very Large"
-        default:
-            return rawValue.capitalized
+            return NSLocalizedString("Very Large", tableName: "Localizable", bundle: .main, comment: "Player controls layout size")
+        case .large:
+            return NSLocalizedString("Large", tableName: "Localizable", bundle: .main, comment: "Player controls layout size")
+        case .medium:
+            return NSLocalizedString("Medium", tableName: "Localizable", bundle: .main, comment: "Player controls layout size")
+        case .small:
+            return NSLocalizedString("Small", tableName: "Localizable", bundle: .main, comment: "Player controls layout size")
+        case .smaller:
+            return NSLocalizedString("Smaller", tableName: "Localizable", bundle: .main, comment: "Player controls layout size")
         }
     }
 

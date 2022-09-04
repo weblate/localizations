@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct TrendingCountry: View {
-    static let prompt = "Country Name or Code"
+    static let prompt = NSLocalizedString("Country Name or Code", tableName: "Localizable", bundle: .main, comment: "")
     @Binding var selectedCountry: Country
 
     @StateObject private var store = Store(Country.allCases)

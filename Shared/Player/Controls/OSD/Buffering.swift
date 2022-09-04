@@ -3,7 +3,7 @@ import Foundation
 import SwiftUI
 
 struct Buffering: View {
-    var reason = "Buffering stream..."
+    var reason = NSLocalizedString("Buffering stream...", tableName: "Localizable", bundle: .main, comment: "")
     var state: String?
 
     #if os(iOS)
