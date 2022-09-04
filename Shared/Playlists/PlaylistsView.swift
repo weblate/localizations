@@ -89,28 +89,29 @@ struct PlaylistsView: View {
             }
             .padding(.horizontal)
         }) {
-            SignInRequiredView(title: "Playlists") {
-                VStack {
-                    #if os(tvOS)
-                        toolbar
-                    #endif
-
-                    if currentPlaylist != nil, items.isEmpty {
-                        hintText("Playlist is empty\n\nTap and hold on a video and then tap \"Add to Playlist\"")
-                    } else if model.all.isEmpty {
-                        hintText("You have no playlists\n\nTap on \"New Playlist\" to create one")
-                    } else {
-                        Group {
-                            #if os(tvOS)
-                                HorizontalCells(items: items)
-                                    .padding(.top, 40)
-                                Spacer()
-                            #else
-                                VerticalCells(items: items)
-                                    .environment(\.scrollViewBottomPadding, 70)
-                            #endif
+            SignInRequiredView(title: NSLocalizedString("Playlists", tableName: "Localizable", bundle: .main, comment: "")) {
+                ScrollView {
+                    VStack {
+                        #if os(tvOS)
+                            toolbar
+                        #endif
+                        if currentPlaylist != nil, items.isEmpty {
+                            hintText(NSLocalizedString("Playlist is empty\n\nTap and hold on a video and then \n\"Add to Playlist\"", tableName: "Localizable", bundle: .main, comment: ""))
+                        } else if model.all.isEmpty {
+                            hintText(NSLocalizedString("You have no playlists\n\nTap on \"New Playlist\" to create one", tableName: "Localizable", bundle: .main, comment: ""))
+                        } else {
+                            Group {
+                                #if os(tvOS)
+                                    HorizontalCells(items: items)
+                                        .padding(.top, 40)
+                                    Spacer()
+                                #else
+                                    VerticalCells(items: items)
+                                        .environment(\.scrollViewBottomPadding, 70)
+                                #endif
+                            }
+                            .environment(\.currentPlaylistID, currentPlaylist?.id)
                         }
-                        .environment(\.currentPlaylistID, currentPlaylist?.id)
                     }
                 }
             }

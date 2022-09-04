@@ -89,13 +89,19 @@ struct ShareButton: View {
     }
 
     private func labelForShareURL(_ app: String, withTime: Bool = false) -> String {
-        let time = withTime ? "with time" : ""
-
-        #if os(macOS)
-            return "Copy \(app) link \(time)"
-        #else
-            return "Share \(app) link \(time)"
-        #endif
+        if withTime {
+            #if os(macOS)
+                return String(format: NSLocalizedString("Copy %@ link with time", tableName: "Localizable", bundle: .main, comment: ""), app)
+            #else
+                return String(format: NSLocalizedString("Share %@ link with time", tableName: "Localizable", bundle: .main, comment: ""), app)
+            #endif
+        } else {
+            #if os(macOS)
+                return String(format: NSLocalizedString("Copy %@ link", tableName: "Localizable", bundle: .main, comment: ""), app)
+            #else
+                return String(format: NSLocalizedString("Share %@ link", tableName: "Localizable", bundle: .main, comment: ""), app)
+            #endif
+        }
     }
 }
 

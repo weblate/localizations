@@ -17,34 +17,34 @@ struct Help: View {
             ScrollView(.vertical, showsIndicators: false) {
                 VStack(alignment: .leading, spacing: 0) {
                     Section {
-                        header("I am lost")
+                        header(NSLocalizedString("I am lost", tableName: "Localizable", bundle: .main, comment: ""))
 
                         Text("You can find information about using Yattee in the Wiki pages.")
                             .padding(.bottom, 8)
 
-                        helpItemLink("Wiki", url: Self.wikiURL, systemImage: "questionmark.circle")
+                        helpItemLink(NSLocalizedString("Wiki", tableName: "Localizable", bundle: .main, comment: ""), url: Self.wikiURL, systemImage: "questionmark.circle")
                             .padding(.bottom, 8)
                     }
 
                     Spacer()
 
                     Section {
-                        header("I want to ask a question")
+                        header(NSLocalizedString("I want to ask a question", tableName: "Localizable", bundle: .main, comment: ""))
 
                         Text("Discussions take place in Discord and Matrix. It's a good spot for general questions.")
                             .padding(.bottom, 8)
 
-                        helpItemLink("Discord Server", url: Self.discordURL, systemImage: "message")
+                        helpItemLink(NSLocalizedString("Discord Server", tableName: "Localizable", bundle: .main, comment: ""), url: Self.discordURL, systemImage: "message")
                             .padding(.bottom, 8)
-                        helpItemLink("Matrix Channel", url: Self.matrixURL, systemImage: "message")
+                        helpItemLink(NSLocalizedString("Matrix Channel", tableName: "Localizable", bundle: .main, comment: ""), url: Self.matrixURL, systemImage: "message")
                             .padding(.bottom, 8)
                     }
 
                     Spacer()
 
                     Section {
-                        header("I found a bug /")
-                        header("I have a feature request")
+                        header(NSLocalizedString("I found a bug /", tableName: "Localizable", bundle: .main, comment: ""))
+                        header(NSLocalizedString("I have a feature request", tableName: "Localizable", bundle: .main, comment: ""))
 
                         Text("Bugs and great feature ideas can be sent to the GitHub issues tracker. ")
                         Text("If you are reporting a bug, include all relevant details (especially: app\u{00a0}version, used device and system version, steps to reproduce).")
@@ -52,8 +52,8 @@ struct Help: View {
                             .padding(.bottom, 8)
 
                         VStack(alignment: .leading, spacing: 8) {
-                            helpItemLink("Issues Tracker", url: Self.issuesURL, systemImage: "ladybug")
-                            helpItemLink("Milestones", url: Self.milestonesURL, systemImage: "list.star")
+                            helpItemLink(NSLocalizedString("Issues Tracker", tableName: "Localizable", bundle: .main, comment: ""), url: Self.issuesURL, systemImage: "ladybug")
+                            helpItemLink(NSLocalizedString("Milestones", tableName: "Localizable", bundle: .main, comment: ""), url: Self.milestonesURL, systemImage: "list.star")
                         }
                         .padding(.bottom, 8)
                     }
@@ -61,15 +61,14 @@ struct Help: View {
                     Spacer()
 
                     Section {
-                        header("I like this app!")
+                        header(NSLocalizedString("I like this app!", tableName: "Localizable", bundle: .main, comment: ""))
 
-                        Text("That's nice to hear. It is fun to deliver apps other people want to use. " +
-                            "You can consider donating to the project or help by contributing to new features development.")
+                        Text("That's nice to hear. It is fun to deliver apps other people want to use. You can consider donating to the project or help by contributing to new features development.")
                             .padding(.bottom, 8)
 
                         VStack(alignment: .leading, spacing: 8) {
-                            helpItemLink("Donations", url: Self.donationsURL, systemImage: "dollarsign.circle")
-                            helpItemLink("Contributing", url: Self.contributingURL, systemImage: "hammer")
+                            helpItemLink(NSLocalizedString("Donations", tableName: "Localizable", bundle: .main, comment: ""), url: Self.donationsURL, systemImage: "dollarsign.circle")
+                            helpItemLink(NSLocalizedString("Contributing", tableName: "Localizable", bundle: .main, comment: ""), url: Self.contributingURL, systemImage: "hammer")
                         }
                         .padding(.bottom, 8)
                     }

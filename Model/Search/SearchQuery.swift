@@ -10,7 +10,20 @@ final class SearchQuery: ObservableObject {
         }
 
         var name: String {
-            rawValue.capitalized
+            switch self {
+            case .any:
+                return NSLocalizedString("Any", tableName: "Localizable", bundle: .main, comment: "Video date filter in search")
+            case .hour:
+                return NSLocalizedString("Hour", tableName: "Localizable", bundle: .main, comment: "Video date filter in search")
+            case .today:
+                return NSLocalizedString("Today", tableName: "Localizable", bundle: .main, comment: "Video date filter in search")
+            case .week:
+                return NSLocalizedString("Week", tableName: "Localizable", bundle: .main, comment: "Video date filter in search")
+            case .month:
+                return NSLocalizedString("Month", tableName: "Localizable", bundle: .main, comment: "Video date filter in search")
+            case .year:
+                return NSLocalizedString("Year", tableName: "Localizable", bundle: .main, comment: "Video date filter in search")
+            }
         }
     }
 
@@ -22,7 +35,14 @@ final class SearchQuery: ObservableObject {
         }
 
         var name: String {
-            rawValue.capitalized
+            switch self {
+            case .any:
+                return NSLocalizedString("Any", tableName: "Localizable", bundle: .main, comment: "Video duration filter in search")
+            case .short:
+                return NSLocalizedString("Short", tableName: "Localizable", bundle: .main, comment: "Video duration filter in search")
+            case .long:
+                return NSLocalizedString("Long", tableName: "Localizable", bundle: .main, comment: "Video duration filter in search")
+            }
         }
     }
 
@@ -35,12 +55,14 @@ final class SearchQuery: ObservableObject {
 
         var name: String {
             switch self {
+            case .relevance:
+                return NSLocalizedString("Relevance", tableName: "Localizable", bundle: .main, comment: "Video sort order in search")
+            case .rating:
+                return NSLocalizedString("Rating", tableName: "Localizable", bundle: .main, comment: "Video sort order in search")
             case .uploadDate:
-                return "Date"
+                return NSLocalizedString("Date", tableName: "Localizable", bundle: .main, comment: "Video sort order in search")
             case .viewCount:
-                return "Views"
-            default:
-                return rawValue.capitalized
+                return NSLocalizedString("Views", tableName: "Localizable", bundle: .main, comment: "Video sort order in search")
             }
         }
 

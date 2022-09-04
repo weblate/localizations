@@ -227,7 +227,8 @@ struct ControlsBar: View {
                 }
 
                 VStack(alignment: .leading, spacing: 0) {
-                    Text(model.currentVideo?.title ?? "Not Playing")
+                    let notPlaying = NSLocalizedString("Not Playing", tableName: "Localizable", bundle: .main, comment: "")
+                    Text(model.currentVideo?.title ?? notPlaying)
                         .font(.system(size: 14))
                         .fontWeight(.semibold)
                         .foregroundColor(model.currentVideo.isNil ? .secondary : .accentColor)

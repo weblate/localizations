@@ -18,12 +18,18 @@ final class SponsorBlockAPI: ObservableObject {
         }
 
         switch name {
+        case "sponsor":
+            return NSLocalizedString("Sponsor", tableName: "Localizable", bundle: .main, comment: "SponsorBlock category name")
         case "selfpromo":
-            return "Self-promotion"
-
+            return NSLocalizedString("Self-promotion", tableName: "Localizable", bundle: .main, comment: "SponsorBlock category name")
+        case "intro":
+            return NSLocalizedString("Intro", tableName: "Localizable", bundle: .main, comment: "SponsorBlock category name")
+        case "outro":
+            return NSLocalizedString("Outro", tableName: "Localizable", bundle: .main, comment: "SponsorBlock category name")
+        case "interaction":
+            return NSLocalizedString("Interaction", tableName: "Localizable", bundle: .main, comment: "SponsorBlock category name")
         case "music_offtopic":
-            return "Offtopic in Music Videos"
-
+            return NSLocalizedString("Offtopic in Music Videos", tableName: "Localizable", bundle: .main, comment: "SponsorBlock category name")
         default:
             return name.capitalized
         }
@@ -36,25 +42,25 @@ final class SponsorBlockAPI: ObservableObject {
 
         switch name {
         case "sponsor":
-            return "Part of a video promoting a product or service not directly related to the creator. " +
-                "The creator will receive payment or compensation in the form of money or free products."
+            return NSLocalizedString("Part of a video promoting a product or service not directly related to the creator. " +
+                "The creator will receive payment or compensation in the form of money or free products.", tableName: "Localizable", bundle: .main, comment: "")
 
         case "selfpromo":
-            return "Promoting a product or service that is directly related to the creator themselves. " +
-                "This usually includes merchandise or promotion of monetized platforms."
+            return NSLocalizedString("Promoting a product or service that is directly related to the creator themselves. " +
+                "This usually includes merchandise or promotion of monetized platforms.", tableName: "Localizable", bundle: .main, comment: "")
 
         case "intro":
-            return "Segments typically found at the start of a video that include an animation, " +
-                "still frame or clip which are also seen in other videos by the same creator."
+            return NSLocalizedString("Segments typically found at the start of a video that include an animation, " +
+                "still frame or clip which are also seen in other videos by the same creator.", tableName: "Localizable", bundle: .main, comment: "")
 
         case "outro":
-            return "Typically near or at the end of the video when the credits pop up and/or endcards are shown."
+            return NSLocalizedString("Typically near or at the end of the video when the credits pop up and/or endcards are shown.", tableName: "Localizable", bundle: .main, comment: "")
 
         case "interaction":
-            return "Explicit reminders to like, subscribe or interact with them on any paid or free platform(s) (e.g. click on a video)."
+            return NSLocalizedString("Explicit reminders to like, subscribe or interact with them on any paid or free platform(s) (e.g. click on a video).", tableName: "Localizable", bundle: .main, comment: "")
 
         case "music_offtopic":
-            return "For videos which feature music as the primary content."
+            return NSLocalizedString("For videos which feature music as the primary content.", tableName: "Localizable", bundle: .main, comment: "")
 
         default:
             return nil

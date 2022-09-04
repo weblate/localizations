@@ -41,7 +41,7 @@ struct LocationsSettings: View {
     }
 
     @ViewBuilder var settings: some View {
-        Section(header: SettingsHeader(text: "Public Locations"), footer: countryFooter) {
+        Section(header: SettingsHeader(text: NSLocalizedString("Public Locations", tableName: "Localizable", bundle: .main, comment: "")), footer: countryFooter) {
             Picker("Country", selection: $countryOfPublicInstances) {
                 Text("Don't use public locations").tag(String?.none)
                 ForEach(countries, id: \.self) { country in
@@ -65,7 +65,7 @@ struct LocationsSettings: View {
             .disabled(countryOfPublicInstances.isNil)
         }
 
-        Section(header: SettingsHeader(text: "Custom Locations")) {
+        Section(header: SettingsHeader(text: NSLocalizedString("Custom Locations", tableName: "Localizable", bundle: .main, comment: ""))) {
             #if os(macOS)
                 InstancesSettings()
                     .environmentObject(model)
@@ -80,8 +80,8 @@ struct LocationsSettings: View {
 
     @ViewBuilder var countryFooter: some View {
         if let account = accounts.current {
-            let locationType = account.isPublic ? (account.country ?? "Unknown") : "Custom"
-            let description = account.isPublic ? account.url : account.instance?.description ?? "unknown"
+            let locationType = account.isPublic ? (account.country ?? "Unknown") : NSLocalizedString("Custom", tableName: "Localizable", bundle: .main, comment: "Locations settings, custom instance is selected as current")
+            let description = account.isPublic ? account.url : account.instance?.description ?? NSLocalizedString("unknown", tableName: "Localizable", bundle: .main, comment: "")
 
             Text("Current: \(locationType)\n\(description)")
                 .foregroundColor(.secondary)
@@ -99,7 +99,7 @@ struct LocationsSettings: View {
                 }
             }
             .onFailure { _ in
-                model.presentAlert(title: "Could not load locations manifest")
+                model.presentAlert(title: NSLocalizedString("Could not load locations manifest", tableName: "Localizable", bundle: .main, comment: ""))
             }
     }
 

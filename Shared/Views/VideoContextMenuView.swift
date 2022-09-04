@@ -112,14 +112,15 @@ struct VideoContextMenuView: View {
 
     private var watchedAtString: String? {
         if watchingNow {
-            return "Watching now"
+            return NSLocalizedString("Watching now", tableName: "Localizable", bundle: .main, comment: "Selected video is being played")
         }
 
         if let watch = watch, let watchedAtString = watch.watchedAtString {
             if watchedAtString == "in 0 seconds" {
-                return "Just watched"
+                return NSLocalizedString("Just watched", tableName: "Localizable", bundle: .main, comment: "Selected video has just finished playing")
             }
-            return "Watched \(watchedAtString)"
+            let localizedWatchedString = NSLocalizedString("Watched %@", tableName: "Localizable", bundle: .main, comment: "Selected video was played on given date")
+            return String(format: localizedWatchedString, watchedAtString)
         }
 
         return nil

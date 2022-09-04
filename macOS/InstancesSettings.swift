@@ -36,7 +36,7 @@ struct InstancesSettings: View {
             }
 
             if !selectedInstance.isNil, selectedInstance.app.supportsAccounts {
-                SettingsHeader(text: "Accounts")
+                SettingsHeader(text: NSLocalizedString("Accounts", tableName: "Localizable", bundle: .main, comment: ""))
 
                 let list = List(selection: $selectedAccount) {
                     if selectedInstanceAccounts.isEmpty {
@@ -79,7 +79,7 @@ struct InstancesSettings: View {
             }
 
             if selectedInstance != nil, selectedInstance.app.hasFrontendURL {
-                SettingsHeader(text: "Frontend URL")
+                SettingsHeader(text: NSLocalizedString("Frontend URL", tableName: "Localizable", bundle: .main, comment: ""))
 
                 TextField("Frontend URL", text: $frontendURL)
                     .onChange(of: selectedInstance) { _ in

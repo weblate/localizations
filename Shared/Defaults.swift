@@ -238,7 +238,18 @@ enum VisibleSection: String, CaseIterable, Comparable, Defaults.Serializable {
     case favorites, subscriptions, popular, trending, playlists
 
     var title: String {
-        rawValue.localizedCapitalized
+        switch self {
+        case .favorites:
+            return NSLocalizedString("Favorites", tableName: "Localizable", bundle: .main, comment: "")
+        case .subscriptions:
+            return NSLocalizedString("Subscriptions", tableName: "Localizable", bundle: .main, comment: "")
+        case .popular:
+            return NSLocalizedString("Popular", tableName: "Localizable", bundle: .main, comment: "")
+        case .trending:
+            return NSLocalizedString("Trending", tableName: "Localizable", bundle: .main, comment: "")
+        case .playlists:
+            return NSLocalizedString("Playlists", tableName: "Localizable", bundle: .main, comment: "")
+        }
     }
 
     var tabSelection: TabSelection {
@@ -312,6 +323,17 @@ enum PlayerDetailsPageButtonLabelStyle: String, CaseIterable, Defaults.Serializa
 
 enum ThumbnailsQuality: String, CaseIterable, Defaults.Serializable {
     case highest, medium, low
+
+    var description: String {
+        switch self {
+        case .highest:
+            return NSLocalizedString("Highest quality", tableName: "Localizable", bundle: .main, comment: "")
+        case .medium:
+            return NSLocalizedString("Medium quality", tableName: "Localizable", bundle: .main, comment: "")
+        case .low:
+            return NSLocalizedString("Low quality", tableName: "Localizable", bundle: .main, comment: "")
+        }
+    }
 }
 
 enum SystemControlsCommands: String, CaseIterable, Defaults.Serializable {

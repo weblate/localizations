@@ -112,7 +112,7 @@ struct AdvancedSettings: View {
     }
 
     var manifestHeader: some View {
-        SettingsHeader(text: "Public Manifest")
+        SettingsHeader(text: NSLocalizedString("Public Manifest", tableName: "Localizable", bundle: .main, comment: ""))
     }
 
     var showMPVPlaybackStatsToggle: some View {

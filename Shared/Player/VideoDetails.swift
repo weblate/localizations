@@ -70,11 +70,26 @@ struct VideoDetails: View {
             )
 
             HStack(spacing: 4) {
-                pageButton("Info", "info.circle", .info, !video.isNil)
-                pageButton("Chapters", "bookmark", .chapters, !(video?.chapters.isEmpty ?? true))
-                pageButton("Comments", "text.bubble", .comments, !video.isNil) { comments.load() }
-                pageButton("Related", "rectangle.stack.fill", .related, !video.isNil)
-                pageButton("Queue", "list.number", .queue, !player.queue.isEmpty)
+                pageButton(
+                    NSLocalizedString("Info", tableName: "Localizable", bundle: .main, comment: ""),
+                    "info.circle", .info, !video.isNil
+                )
+                pageButton(
+                    NSLocalizedString("Chapters", tableName: "Localizable", bundle: .main, comment: ""),
+                    "bookmark", .chapters, !(video?.chapters.isEmpty ?? true)
+                )
+                pageButton(
+                    NSLocalizedString("Comments", tableName: "Localizable", bundle: .main, comment: ""),
+                    "text.bubble", .comments, !video.isNil
+                ) { comments.load() }
+                pageButton(
+                    NSLocalizedString("Related", tableName: "Localizable", bundle: .main, comment: ""),
+                    "rectangle.stack.fill", .related, !video.isNil
+                )
+                pageButton(
+                    NSLocalizedString("Queue", tableName: "Localizable", bundle: .main, comment: ""),
+                    "list.number", .queue, !player.queue.isEmpty
+                )
             }
             .onChange(of: player.currentItem) { _ in
                 page.update(.moveToFirst)
