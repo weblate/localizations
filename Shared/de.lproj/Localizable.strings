@@ -1,0 +1,395 @@
+" subscribers" = " subscribers";
+"#" = "#";
+"%@" = "%@";
+"%@ %@" = "%@ %@";
+"%@ Channel" = "%@ Channel";
+"%@ Playlist" = "%@ Playlist";
+"%@ subscribers" = "%@ subscribers";
+"%lld" = "%lld";
+"%lld videos" = "%lld videos";
+"%lld%%" = "%lld%%";
+"1 century ago" = "1 century ago";
+"1,234M" = "1,234M";
+"10 seconds forwards/backwards" = "10 seconds forwards/backwards";
+"1234" = "1234";
+"a" = "a";
+"A" = "A";
+"Accounts" = "Accounts";
+"Accounts are not supported for the application of this instance" = "Accounts are not supported for the application of this instance";
+"Add Account" = "Add Account";
+"Add Account..." = "Add Account...";
+"Add Location" = "Add Location";
+"Add Location..." = "Add Location...";
+"Add profile..." = "Add profile...";
+"Add Quality Profile" = "Add Quality Profile";
+"Add to %@" = "Add to %@";
+"Add to Favorites" = "Add to Favorites";
+"Add to Playlist" = "Add to Playlist";
+"Add to Playlist..." = "Add to Playlist...";
+"Advanced" = "Advanced";
+
+/* Trending category, section containing all kinds of videos */
+"All" = "All";
+"Always use AVPlayer for live videos" = "Always use AVPlayer for live videos";
+"Anonymous" = "Anonymous";
+
+/* Video date filter in search
+   Video duration filter in search */
+"Any" = "Any";
+"Apply to all" = "Apply to all";
+"Are you sure you want to clear history of watched videos?" = "Are you sure you want to clear history of watched videos?";
+"Are you sure you want to clear search history?" = "Are you sure you want to clear search history?";
+"Are you sure you want to delete playlist?" = "Are you sure you want to delete playlist?";
+"Are you sure you want to restore default quality profiles?" = "Are you sure you want to restore default quality profiles?";
+"Are you sure you want to unsubscribe from %@?" = "Are you sure you want to unsubscribe from %@?";
+"Automatic" = "Automatic";
+"Autoplaying Next" = "Autoplaying Next";
+"Backend" = "Backend";
+"Badge" = "Badge";
+"Badge & Decreased opacity" = "Badge & Decreased opacity";
+"Badge color" = "Badge color";
+"Based on system color scheme" = "Based on system color scheme";
+"Battery" = "Battery";
+"Blue" = "Blue";
+"Browsing" = "Browsing";
+"Buffering stream..." = "Buffering stream...";
+"Bugs and great feature ideas can be sent to the GitHub issues tracker. " = "Bugs and great feature ideas can be sent to the GitHub issues tracker. ";
+"Button" = "Button";
+"cache-pause-wait" = "cache-pause-wait";
+"cache-secs" = "cache-secs";
+"Cancel" = "Cancel";
+"Captions" = "Captions";
+"Categories to Skip" = "Categories to Skip";
+"Category" = "Category";
+"Cellular" = "Cellular";
+"Chapters" = "Chapters";
+"Charging" = "Charging";
+"Clear" = "Clear";
+"Clear All" = "Clear All";
+"Clear All Recents" = "Clear All Recents";
+"Clear History" = "Clear History";
+"Clear Search History" = "Clear Search History";
+"Clear Search History..." = "Clear Search History...";
+"Clear the queue" = "Clear the queue";
+"Close" = "Close";
+"Close PiP and open player when application enters foreground" = "Close PiP and open player when application enters foreground";
+"Close PiP when player is opened" = "Close PiP when player is opened";
+"Close PiP when starting playing other video" = "Close PiP when starting playing other video";
+"Close player when closing video" = "Close player when closing video";
+"Close player when starting PiP" = "Close player when starting PiP";
+"Close Video" = "Close Video";
+"Close video after playing last in the queue" = "Close video after playing last in the queue";
+"Comments" = "Comments";
+"Connected successfully (%@)" = "Connected successfully (%@)";
+"Connection failed" = "Connection failed";
+"Contact" = "Contact";
+"Continue" = "Continue";
+"Continue from %@" = "Continue from %@";
+"Contributing" = "Contributing";
+"Controls" = "Controls";
+"Copy %@ link" = "Copy %@ link";
+"Copy %@ link with time" = "Copy %@ link with time";
+"Could not load locations manifest" = "Could not load locations manifest";
+"Country" = "Country";
+"Country Name or Code" = "Country Name or Code";
+"Create Playlist" = "Create Playlist";
+"Current: %@\n%@" = "Current: %@\n%@";
+
+/* Locations settings, custom instance is selected as current */
+"Custom" = "Custom";
+"Custom Locations" = "Custom Locations";
+
+/* Video sort order in search */
+"Date" = "Date";
+"Decrease rate" = "Decrease rate";
+"Decreased opacity" = "Decreased opacity";
+"Delete" = "Delete";
+"Disabled" = "Disabled";
+"Discord Server" = "Discord Server";
+"Discussions take place in Discord and Matrix. It's a good spot for general questions." = "Discussions take place in Discord and Matrix. It's a good spot for general questions.";
+"Don't use public locations" = "Don't use public locations";
+"Donations" = "Donations";
+"Done" = "Done";
+"Duration" = "Duration";
+"Edit" = "Edit";
+"Edit Playlist" = "Edit Playlist";
+"Edit Quality Profile" = "Edit Quality Profile";
+"Edit..." = "Edit...";
+"Enable logging" = "Enable logging";
+"Enable Return YouTube Dislike" = "Enable Return YouTube Dislike";
+"Enter fullscreen in landscape" = "Enter fullscreen in landscape";
+"Error" = "Error";
+"Error when accessing playlist" = "Error when accessing playlist";
+"Explicit reminders to like, subscribe or interact with them on any paid or free platform(s) (e.g. click on a video)." = "Explicit reminders to like, subscribe or interact with them on any paid or free platform(s) (e.g. click on a video).";
+"Favorites" = "Favorites";
+"Filter" = "Filter";
+"Filter: active" = "Filter: active";
+"Find Other" = "Find Other";
+"Finding something to play..." = "Finding something to play...";
+"For videos which feature music as the primary content." = "For videos which feature music as the primary content.";
+"Formats will be selected in order as listed.\nHLS is an adaptive format (resolution setting does not apply)." = "Formats will be selected in order as listed.\nHLS is an adaptive format (resolution setting does not apply).";
+"Frontend URL" = "Frontend URL";
+"Fullscreen size" = "Fullscreen size";
+"Fullscreen Size" = "Fullscreen Size";
+"Gaming" = "Gaming";
+"Help" = "Help";
+"Hide sidebar" = "Hide sidebar";
+"High" = "High";
+"Highest" = "Highest";
+"Highest quality" = "Highest quality";
+"History" = "History";
+"Honor orientation lock" = "Honor orientation lock";
+
+/* Video date filter in search */
+"Hour" = "Hour";
+"I am lost" = "I am lost";
+"I found a bug /" = "I found a bug /";
+"I have a feature request" = "I have a feature request";
+"I like this app!" = "I like this app!";
+"I want to ask a question" = "I want to ask a question";
+"If you are interested what's coming in future updates, you can track project Milestones." = "If you are interested what's coming in future updates, you can track project Milestones.";
+"If you are reporting a bug, include all relevant details (especially: app version, used device and system version, steps to reproduce)." = "If you are reporting a bug, include all relevant details (especially: app version, used device and system version, steps to reproduce).";
+"Increase rate" = "Increase rate";
+"Info" = "Info";
+"Instance of current account" = "Instance of current account";
+
+/* SponsorBlock category name */
+"Interaction" = "Interaction";
+"Interface" = "Interface";
+
+/* SponsorBlock category name */
+"Intro" = "Intro";
+"Issues Tracker" = "Issues Tracker";
+
+/* Selected video has just finished playing */
+"Just watched" = "Just watched";
+
+/* Player controls layout size */
+"Large" = "Large";
+"Large layout is not suitable for all devices and using it may cause controls not to fit on the screen." = "Large layout is not suitable for all devices and using it may cause controls not to fit on the screen.";
+"LIVE" = "LIVE";
+
+/* Loading stream OSD */
+"Loading streams..." = "Loading streams...";
+"Loading..." = "Loading...";
+"Locations" = "Locations";
+"Lock portrait mode" = "Lock portrait mode";
+
+/* Video duration filter in search */
+"Long" = "Long";
+"Low" = "Low";
+"Low quality" = "Low quality";
+"Lowest" = "Lowest";
+"Mark as watched" = "Mark as watched";
+"Mark video as watched after playing" = "Mark video as watched after playing";
+"Mark watched videos with" = "Mark watched videos with";
+"Matrix Channel" = "Matrix Channel";
+"Matrix Chat" = "Matrix Chat";
+
+/* Player controls layout size */
+"Medium" = "Medium";
+"Medium quality" = "Medium quality";
+"Milestones" = "Milestones";
+
+/* Video date filter in search */
+"Month" = "Month";
+"More info can be found in:" = "More info can be found in:";
+"Movies" = "Movies";
+"MPV Documentation" = "MPV Documentation";
+"Music" = "Music";
+"Name" = "Name";
+"New Playlist" = "New Playlist";
+"Next" = "Next";
+"No description" = "No description";
+"No Playlists" = "No Playlists";
+"No results" = "No results";
+"Normal" = "Normal";
+"Not available" = "Not available";
+"Not Playing" = "Not Playing";
+"Nothing" = "Nothing";
+
+/* SponsorBlock category name */
+"Offtopic in Music Videos" = "Offtopic in Music Videos";
+"Only when signed in" = "Only when signed in";
+"Open \"Playlists\" tab to create new one" = "Open \"Playlists\" tab to create new one";
+"Open Settings" = "Open Settings";
+
+/* Loading stream OSD */
+"Opening %@ stream..." = "Opening %@ stream...";
+"Opening audio stream..." = "Opening audio stream...";
+"Orientation" = "Orientation";
+
+/* SponsorBlock category name */
+"Outro" = "Outro";
+"Part of a video promoting a product or service not directly related to the creator. The creator will receive payment or compensation in the form of money or free products." = "Part of a video promoting a product or service not directly related to the creator. The creator will receive payment or compensation in the form of money or free products.";
+"Password" = "Password";
+"Pause" = "Pause";
+"Pause when entering background" = "Pause when entering background";
+"Pause when player is closed" = "Pause when player is closed";
+"Picture in Picture" = "Picture in Picture";
+"Play" = "Play";
+"Play All" = "Play All";
+"Play in PiP" = "Play in PiP";
+"Play Last" = "Play Last";
+"Play Music" = "Play Music";
+"Play Next" = "Play Next";
+"Play Now" = "Play Now";
+"Playback" = "Playback";
+"Player" = "Player";
+"Playlist" = "Playlist";
+"Playlist \"%@\" will be deleted.\nIt cannot be reverted." = "Playlist \"%@\" will be deleted.\nIt cannot be reverted.";
+"Playlists" = "Playlists";
+"Popular" = "Popular";
+"Preferred Formats" = "Preferred Formats";
+"Profiles" = "Profiles";
+"Promoting a product or service that is directly related to the creator themselves. This usually includes merchandise or promotion of monetized platforms." = "Promoting a product or service that is directly related to the creator themselves. This usually includes merchandise or promotion of monetized platforms.";
+"Proxy videos" = "Proxy videos";
+"Public Locations" = "Public Locations";
+"Public Manifest" = "Public Manifest";
+"Quality" = "Quality";
+"Quality Profile" = "Quality Profile";
+"Queue" = "Queue";
+"Queue is empty" = "Queue is empty";
+"Rate" = "Rate";
+
+/* Video sort order in search */
+"Rating" = "Rating";
+"Recents" = "Recents";
+"Red" = "Red";
+"Refresh" = "Refresh";
+"Regular size" = "Regular size";
+"Regular Size" = "Regular Size";
+"Related" = "Related";
+
+/* Video sort order in search */
+"Relevance" = "Relevance";
+"Remove" = "Remove";
+"Remove from Favorites" = "Remove from Favorites";
+"Remove from history" = "Remove from history";
+"Remove from Playlist" = "Remove from Playlist";
+"Remove from the queue" = "Remove from the queue";
+"Replies" = "Replies";
+"Reset" = "Reset";
+"Reset search filters" = "Reset search filters";
+"Reset watched status when playing again" = "Reset watched status when playing again";
+"Resolution" = "Resolution";
+"Restart" = "Restart";
+"Restart the app to apply the settings above." = "Restart the app to apply the settings above.";
+"Restart/Play next" = "Restart/Play next";
+"Restore default profiles..." = "Restore default profiles...";
+"Rotate to portrait when exiting fullscreen" = "Rotate to portrait when exiting fullscreen";
+"Round corners" = "Round corners";
+"Save" = "Save";
+"Save history of played videos" = "Save history of played videos";
+"Save history of searches, channels and playlists" = "Save history of searches, channels and playlists";
+"Search" = "Search";
+"Search history is empty" = "Search history is empty";
+"Search..." = "Search...";
+"Sections" = "Sections";
+"Seek gesture sensitivity" = "Seek gesture sensitivity";
+"Seek gesture speed" = "Seek gesture speed";
+"Seek with horizontal swipe on video" = "Seek with horizontal swipe on video";
+"Segments typically found at the start of a video that include an animation, still frame or clip which are also seen in other videos by the same creator." = "Segments typically found at the start of a video that include an animation, still frame or clip which are also seen in other videos by the same creator.";
+"Select location closest to you:" = "Select location closest to you:";
+
+/* SponsorBlock category name */
+"Self-promotion" = "Self-promotion";
+"Settings" = "Settings";
+"Share %@ link" = "Share %@ link";
+"Share %@ link with time" = "Share %@ link with time";
+"Share..." = "Share...";
+
+/* Video duration filter in search */
+"Short" = "Short";
+"Show account username" = "Show account username";
+"Show anonymous accounts" = "Show anonymous accounts";
+"Show channel name" = "Show channel name";
+"Show history" = "Show history";
+"Show keywords" = "Show keywords";
+"Show playback statistics" = "Show playback statistics";
+"Show progress of watching on thumbnails" = "Show progress of watching on thumbnails";
+"Show sidebar when space permits" = "Show sidebar when space permits";
+"Show video length" = "Show video length";
+"Shuffle" = "Shuffle";
+"Shuffle All" = "Shuffle All";
+"Sidebar" = "Sidebar";
+"Sign In Required" = "Sign In Required";
+
+/* Player controls layout size */
+"Small" = "Small";
+
+/* Player controls layout size */
+"Smaller" = "Smaller";
+"Sort" = "Sort";
+"Sort: %@" = "Sort: %@";
+"Source" = "Source";
+
+/* SponsorBlock category name */
+"Sponsor" = "Sponsor";
+"SponsorBlock" = "SponsorBlock";
+"SponsorBlock API Instance" = "SponsorBlock API Instance";
+"Subscribe" = "Subscribe";
+
+/* Subscriptions title */
+"Subscriptions" = "Subscriptions";
+"Switch to other public location" = "Switch to other public location";
+"Switch to public locations" = "Switch to public locations";
+"System controls buttons" = "System controls buttons";
+"System controls show buttons for %@" = "System controls show buttons for %@";
+"Test string" = "Test string";
+"Test string 2" = "Test string 2";
+"Test string 3" = "Test string 3";
+"That's nice to hear. It is fun to deliver apps other people want to use. You can consider donating to the project or help by contributing to new features development." = "That's nice to hear. It is fun to deliver apps other people want to use. You can consider donating to the project or help by contributing to new features development.";
+"This cannot be reverted" = "This cannot be reverted";
+"This cannot be reverted. You might need to switch between views or restart the app to see changes." = "This cannot be reverted. You might need to switch between views or restart the app to see changes.";
+"This information will be processed only on your device and used to connect you to the server in the specified country." = "This information will be processed only on your device and used to connect you to the server in the specified country.";
+"This will remove all your custom profiles and return their default values. This cannot be reverted." = "This will remove all your custom profiles and return their default values. This cannot be reverted.";
+"Thumbnails" = "Thumbnails";
+
+/* Video date filter in search */
+"Today" = "Today";
+"Trending" = "Trending";
+
+/* Player controls layout size for TV */
+"TV" = "TV";
+"Typically near or at the end of the video when the credits pop up and/or endcards are shown." = "Typically near or at the end of the video when the credits pop up and/or endcards are shown.";
+"unknown" = "unknown";
+"Unsubscribe" = "Unsubscribe";
+"Upload date" = "Upload date";
+"URL" = "URL";
+"Used to create links from videos, channels and playlists" = "Used to create links from videos, channels and playlists";
+"Username" = "Username";
+
+/* Player controls layout size */
+"Very Large" = "Very Large";
+"Videos" = "Videos";
+
+/* Video sort order in search */
+"Views" = "Views";
+"Watched" = "Watched";
+
+/* Selected video was played on given date */
+"Watched %@" = "Watched %@";
+
+/* Selected video is being played */
+"Watching now" = "Watching now";
+
+/* Video date filter in search */
+"Week" = "Week";
+"Welcome" = "Welcome";
+"When partially watched video is played" = "When partially watched video is played";
+"Wi-Fi" = "Wi-Fi";
+"Wiki" = "Wiki";
+"Yattee" = "Yattee";
+"Yattee %@ (build %@)" = "Yattee %@ (build %@)";
+
+/* Video date filter in search */
+"Year" = "Year";
+"You can find information about using Yattee in the Wiki pages." = "You can find information about using Yattee in the Wiki pages.";
+"You can use automatic profile selection based on current device status or switch it in video playback settings controls." = "You can use automatic profile selection based on current device status or switch it in video playback settings controls.";
+"You have no Playlists" = "You have no Playlists";
+"You have no playlists\n\nTap on \"New Playlist\" to create one" = "You have no playlists\n\nTap on \"New Playlist\" to create one";
+"You need to create an instance and accounts\nto access %@ section" = "You need to create an instance and accounts\nto access %@ section";
+"You need to select an account\nto access %@ section" = "You need to select an account\nto access %@ section";
+
+
