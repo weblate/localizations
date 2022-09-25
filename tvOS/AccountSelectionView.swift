@@ -12,7 +12,7 @@ struct AccountSelectionView: View {
     @Default(.accountPickerDisplaysAnonymousAccounts) private var accountPickerDisplaysAnonymousAccounts
 
     var body: some View {
-        Section(header: Text(showHeader ? "Current Location" : "")) {
+        Section(header: Text(showHeader ? "Current Location".localized() : "")) {
             Button(accountButtonTitle(account: accountsModel.current)) {
                 if let account = nextAccount {
                     accountsModel.setCurrent(account)

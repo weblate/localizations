@@ -94,6 +94,7 @@
 "Country Name or Code" = "Country Name or Code";
 "Create Playlist" = "Create Playlist";
 "Current: %@\n%@" = "Current: %@\n%@";
+"Current Location" = "Current Location";
 
 /* Locations settings, custom instance is selected as current */
 "Custom" = "Custom";
@@ -392,5 +393,3 @@
 "You have no playlists\n\nTap on \"New Playlist\" to create one" = "You have no playlists\n\nTap on \"New Playlist\" to create one";
 "You need to create an instance and accounts\nto access %@ section" = "You need to create an instance and accounts\nto access %@ section";
 "You need to select an account\nto access %@ section" = "You need to select an account\nto access %@ section";
-
-

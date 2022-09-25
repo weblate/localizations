@@ -92,6 +92,7 @@
 "Country Name or Code" = "";
 "Create Playlist" = "";
 "Current: %@\n%@" = "";
+"Current Location" = "";
 /* Locations settings, custom instance is selected as current */
 "Custom" = "";
 "Custom Locations" = "";
